@@ -5,6 +5,7 @@ import HeaderNav from './headerNav/HeaderNav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FormSubscribe from './formSubscribe/FormSubscribe';
 import VID1 from './VID1.mp4'
+import FooterComponent from './footer/FooterComponent';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       </Helmet>
       <HeaderNav />
       <FormSubscribe/>
+      <FooterComponent />
     </div>
   );
 }

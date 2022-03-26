@@ -4,7 +4,16 @@
     font-family:'Tangerine', serif;    
     font-weight: 600;
     font-size: 25px; 
-    padding: 7.5%;   
+    padding: 7.5%; 
+        /*  */
+    position: sticky;
+    align-items: center;   
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */  
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;     
+    height: 70px;
+
 }
 .coco{
     color: rgb(117, 54, 8);

@@ -15,7 +15,7 @@ class FormSubscribe extends Component {
                 <FormControl  placeholder='First name' aria-label="First name" />
                 <FormControl  placeholder='Last name' aria-label="Last name" />
             </InputGroup>
-
+            
             <InputGroup className="mb-3">
                 <FormControl
                     placeholder="you'r adress mail"
@@ -25,10 +25,10 @@ class FormSubscribe extends Component {
                 <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
             
             </InputGroup>  
-           
+            
             <Form.Group className="mb-3" controlId="formBasicPassword">                       
                 <Form.Control type="password" placeholder="Password" />
-                <br></br>
+                <br/>
                 <Form.Control type="password" placeholder="Confirm Password" />
             </Form.Group>
             <Form.Label>I agree to the terms and conditions and the privacy policy</Form.Label>
