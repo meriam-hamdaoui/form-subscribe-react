@@ -1,19 +1,25 @@
 import React, { Component } from 'react'
 import { Form, FormControl, InputGroup, Button } from 'react-bootstrap';
-import './FormSubscribe.css'
+import './FormSubscribe.css';
+import VID1 from './VID1.mp4';
 
 
 class FormSubscribe extends Component {
   render() {
     return (
       <div className="FormSubscribe">
-       
+       <video className='background-VID'
+            autoPlay 
+            loop
+          >
+              <source src={VID1} type='video/mp4'/>
+          </video>
         <Form className='subscription'>
             <h1>Subscribe</h1>
             <InputGroup className="mb-3">
                 <InputGroup.Text>User Name</InputGroup.Text>
-                <FormControl  placeholder='First name' aria-label="First name" />
-                <FormControl  placeholder='Last name' aria-label="Last name" />
+                <FormControl placeholder='First name' aria-label="First name" />
+                <FormControl placeholder='Last name' aria-label="Last name" />
             </InputGroup>
             
             <InputGroup className="mb-3">

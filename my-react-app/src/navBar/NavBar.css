@@ -1,0 +1,30 @@
+.NavBar {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    transition: 0.4s;
+    background-color: white;
+    box-shadow: 0 5px 10px chocolate;
+    font-family: Tangerine,serif;
+    font-weight: 600;
+    font-size: 25px;
+    width: 100%;
+  }
+
+.coco {
+    color: rgb(122, 38, 7);
+    font-size: 40px;
+}
+.menu-items, #navbarScrollingDropdown {
+    color: chocolate;
+}
+.dropdown-item {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.d-flex .btn-search{
+    background-color: chocolate;
+}
+.d-flex .btn-search:hover{
+    background-color: rgb(117, 54, 8);
+}

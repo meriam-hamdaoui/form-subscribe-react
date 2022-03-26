@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, Container, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
-import './HeaderNav.css';
+import './NavBar.css';
 import logo from './logo.png';
 
-class HeaderNav extends Component {
+class NavBar extends Component {
 render(){
 
     return (
-      <div className='HeaderNav'>
+      <div className='NavBar'>
           <Navbar expand='lg' className='navbar-style' >
             <Container>         
               <Navbar.Brand href="#home">
@@ -55,4 +55,4 @@ render(){
 }
 
 
-export default HeaderNav;
+export default NavBar;
