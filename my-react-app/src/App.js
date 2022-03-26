@@ -8,6 +8,7 @@ import VID1 from './VID1.mp4'
 import FooterComponent from './footer/FooterComponent';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
           {/* <link rel="canonical" href="http://mysite.com/example" /> */}
           <meta name="description" content="coco carnaval react-app" />
       </Helmet>
+      
       <HeaderNav />
       <FormSubscribe/>
       <FooterComponent />

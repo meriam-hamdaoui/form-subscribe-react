@@ -1,20 +1,19 @@
-.navbar-style{    
+.navbar-style{   
+    /* border: 5px solid red;  */
     background-color:white ;
     box-shadow: 0 5px 10px chocolate;
     font-family:'Tangerine', serif;    
     font-weight: 600;
     font-size: 25px; 
-    padding: 7.5%; 
-        /*  */
+    padding: 5%; 
+        /* fixed navbar */
     position: sticky;
-    align-items: center;   
-    transition: 0.4s; /* Adds a transition effect when the padding is decreased */  
-    width: 100%;
-    top: 0; /* At the top */
-    z-index: 99;     
-    height: 70px;
+    top: 0;
+    z-index: 99;
+    transition: 0.4s;
 
 }
+
 .coco{
     color: rgb(117, 54, 8);
     font-size: 40px;    
