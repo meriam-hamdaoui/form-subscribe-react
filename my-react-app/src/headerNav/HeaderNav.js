@@ -12,11 +12,10 @@ render(){
           <Container fluid>         
             <Navbar.Brand href="#home">
                 <img
-                alt=""
-                src= {logo}
-                width="100"
-                height="70"
-                
+                  alt=""
+                  src= {logo}
+                  width="90"
+                  height="60"                
                 />{' '}
                 <span className='coco'>Coco Carnaval</span> 
             </Navbar.Brand>
@@ -27,8 +26,12 @@ render(){
                 style={{ maxHeight: '100px' }}
                 navbarScroll
               >
-                <Nav.Link href="#Home"><span className='menu-items'>About us</span></Nav.Link>
-                <Nav.Link href="#Gallery"><span className='menu-items'>Gallery</span></Nav.Link>
+                {/* <Nav.Link href="#Home"><span className='menu-items'>About us</span></Nav.Link> */}
+                {/* <Nav.Link href="#Gallery"><span className='menu-items'>Gallery</span></Nav.Link> */}
+                <NavDropdown title="Follow Us" id="navbarScrollingDropdown">                  
+                  <NavDropdown.Item href="https://instagram.com/coco_carnaval?utm_medium=copy_link"><span className='menu-items'><i class="fa-brands fa-instagram-square"></i>Instagram</span></NavDropdown.Item>         
+                  <NavDropdown.Item href="https://www.facebook.com/Coco-carnaval-111929838090877/"><span className='menu-items'><i class="fa-brands fa-facebook"></i>Facebook</span></NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown title="Flavors" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#Black-Chocolat"><span className='menu-items'>Black</span></NavDropdown.Item>
                   <NavDropdown.Item href="#Coffee-Chocolat"><span className='menu-items'>Coffee</span></NavDropdown.Item>

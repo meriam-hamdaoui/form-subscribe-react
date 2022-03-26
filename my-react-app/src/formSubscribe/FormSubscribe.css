@@ -1,0 +1,32 @@
+.FormSubscribe{
+    margin: 3%;    
+    display: flex;
+    justify-content: center;
+   
+}
+h1{
+    text-align: center;
+    color: rgb(117, 54, 8);    
+    font-family:'Tangerine', serif;
+    font-weight: 900;    
+    font-size: 70px; 
+}
+.submit-btn.btn.btn-primary {
+    align-self: center;
+    background-color: chocolate;
+}
+.submit-btn.btn.btn-primary:hover{
+    background-color: rgb(117, 54, 8);
+    
+}
+
+.background-VID{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
