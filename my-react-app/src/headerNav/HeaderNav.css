@@ -1,0 +1,33 @@
+.navbar-style{    
+    background-color:white ;
+    box-shadow: 0 5px 10px chocolate;
+    font-family:'Tangerine', serif;    
+    font-weight: 600;
+    font-size: 25px; 
+    padding: 7.5%;   
+}
+.coco{
+    color: rgb(117, 54, 8);
+    font-size: 40px;    
+    
+}
+.menu-items, #navbarScrollingDropdown{
+    color: chocolate;
+}
+
+.dropdown-item {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+.Navbar.Brand{
+    display: flex;
+    justify-content: baseline;
+    /* align-items: baseline; */
+}
+
+.d-flex .btn-search{
+    background-color: chocolate;
+}
+.d-flex .btn-search:hover{
+    background-color: rgb(117, 54, 8);
+}
